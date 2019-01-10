@@ -5,7 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hej": "echo \"hejsan svejsan\"",
+    "build": "rollup --config  --environment NODE_ENV:production",
+    "start": "rollup --config --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/erikarvidsson/coolGIFs/issues"
   },
-  "homepage": "https://github.com/erikarvidsson/coolGIFs#readme"
+  "homepage": "https://github.com/erikarvidsson/coolGIFs#readme",
+  "dependencies": {
+    "rollup": "^1.1.0",
+    "rollup-plugin-browsersync": "^1.0.0"
+  }
 }
