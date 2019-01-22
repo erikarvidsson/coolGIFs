@@ -1,0 +1,29 @@
+.giphy{
+  width: 100vw;
+  height: 200px;
+  margin-top: 140px;
+
+  #search{
+    justify-content: center;
+    height: 6.8vw;
+  }
+  input{
+    width: 60%;
+    border: 4px solid #903AF1;
+    border-image: url("/public/images/search.gif") 20 round;
+  }
+
+  form{
+    display: flex;
+    height: 6vw;
+    width: 100%
+  }
+
+  button{
+    width: 6.8vw;
+    border: none;
+    background-image: url("/public/images/search.gif");
+    background-color: #903AF1;
+    background-size: cover;
+}
+}

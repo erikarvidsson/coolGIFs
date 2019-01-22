@@ -1,0 +1,10 @@
+@import-normalize;
+
+// Project specific styles.
+@import 'project/_project';
+@import 'components/_components';
+
+body{
+  width: 100vw;
+  background-color: white;
+}
